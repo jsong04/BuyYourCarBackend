@@ -5,6 +5,7 @@ const listing = require("./routes/listing");
 const users = require("./routes/users");
 const user = require("./routes/user");
 const auth = require("./routes/auth");
+const recommendation = require("./routes/recommendation");
 const my = require("./routes/my");
 const messages = require("./routes/messages");
 const search = require('./routes/search');
@@ -22,7 +23,7 @@ app.use(helmet());
 app.use(compression());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(formidableMiddleware());
+// app.use(formidableMiddleware());
 
 app.use("/api/categories", categories);
 app.use("/api/listing", listing);
@@ -34,6 +35,7 @@ app.use("/api/my", my);
 app.use("/api/expoPushTokens", expoPushTokens);
 app.use("/api/messages", messages);
 app.use("/api/search", search);
+app.use("/api/recommendation", recommendation);
 
 const port = process.env.PORT || config.get("port");
 app.listen(port, function() {

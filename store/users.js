@@ -3,13 +3,17 @@ const users = [
     id: 1,
     name: "songjz",
     email: "song.jingz@northeastern.edu",
-    password: "12345"
+    password: "12345",
+    age: 24,
+    budget: 20000
   },
   {
     id: 2,
     name: "John",
     email: "john@domain.com",
     password: "12345",
+    age: 31,
+    budget: 35000
   },
 ];
 
