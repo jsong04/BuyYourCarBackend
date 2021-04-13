@@ -5,7 +5,7 @@ const users = [
     email: "song.jingz@northeastern.edu",
     password: "12345",
     age: 24,
-    budget: 20000
+    budget: 20000,
   },
   {
     id: 2,
@@ -13,7 +13,8 @@ const users = [
     email: "john@domain.com",
     password: "12345",
     age: 31,
-    budget: 35000
+    budget: 35000,
+    avatar: "../assets/avatar.png"
   },
 ];
 
