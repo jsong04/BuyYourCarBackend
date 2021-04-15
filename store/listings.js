@@ -463,6 +463,8 @@ const getListings = () => listings;
 
 const getListing = (id) => listings.find((listing) => listing.id === id);
 
+const getListingByName = (name) => listings.filter((listing) => listing.title.indexOf(name) != -1);
+
 const filterListings = (predicate) => listings.filter(predicate);
 
 module.exports = {
@@ -470,4 +472,5 @@ module.exports = {
   getListings,
   getListing,
   filterListings,
+  getListingByName
 };
