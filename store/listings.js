@@ -452,6 +452,102 @@ const listings = [
     ],
     "id": 40
   },
+{
+    "title": "2021 BMW 4-Series",
+    "price": 45600,
+    "categoryId": 41,
+    "description": "The redesigned 2021 BMW 4 Series is one of the most well-rounded luxury small cars because it's fun to drive, it has an upscale interior, and it comes with plenty of intuitive tech features. The 4 Series not have an overall score or ranking because it hasn’t been fully crash tested",
+    "images": [
+        {
+            "fileName": "f422f458a54446618c21ee074b8da701"
+        }
+    ],
+    "id": 41
+},
+{
+    "title": "2021 BMW 5-Series",
+    "price": 54200,
+    "categoryId": 42,
+    "description": "Exhilarating power, a serene ride, a top-notch safety score, and a cavernous cabin are just some of the traits that propel the 2021 BMW 5 Series toward the top of the luxury midsize car class.",
+    "images": [
+        {
+            "fileName": "3fe6b9a3a860902ee09608e01edd49e6"
+        }
+    ],
+    "id": 42
+},
+{
+    "title": "2021 BMW X6 ",
+    "price": 65050,
+    "categoryId": 43,
+    "description": "The 2021 BMW X6 has a comfortable interior, composed handling, strong engine performance, and a great predicted reliability score but not much cargo room for a luxury midsize SUV. The X6 does not have an overall score or ranking because it has not been fully crash tested.",
+    "images": [
+        {
+            "fileName": "a9436c9107dfe412e59f5cf370427841"
+        }
+    ],
+    "id": 43
+},
+{
+    "title": "2021 BMW Z4",
+    "price": 49700,
+    "categoryId": 44,
+    "description": "The 2021 BMW Z4 sits in the lower half of our luxury sports car rankings. It delivers pleasing driving dynamics and a comfortable interior, but some competitors offer better performance",
+    "images": [
+        {
+            "fileName": "973d69237e877fc9300f4a5ba54b8095"
+        }
+    ],
+    "id": 44
+},
+{
+    "title": "2019 Toyota RAV4",
+    "price": 25650,
+    "categoryId": 45,
+    "description": "The 2019 Toyota RAV4 finishes in the top half of our compact SUV rankings. It isn't the most athletic small crossover, but it's roomy, comfortable, and loaded with technology",
+    "images": [
+        {
+            "fileName": "691df116e8b744fdae7ae526705f36c0"
+        }
+    ],
+    "id": 45
+},
+{
+    "title": "2018 Toyota Camry",
+    "price": 19623,
+    "categoryId": 46,
+    "description": "The 2018 Toyota Camry ranks among the best midsize sedans thanks to an abundance of standard features, pleasant driving dynamics, and a powerful yet fuel-efficient base engine",
+    "images": [
+        {
+            "fileName": "9e4a5907c2cc7d115c7bf843f97e6ede"
+        }
+    ],
+    "id": 46
+},
+{
+    "title": "2018 Toyota Land Cruiser",
+    "price": 62367,
+    "categoryId": 47,
+    "description": "The 2018 Toyota Land Cruiser ranks near the top of the luxury large SUV class, thanks to its good predicted reliability rating, long list of standard features, and exceptional off-road ability. That said, it's not as luxurious as many rivals, and it has a sluggish infotainment system",
+    "images": [
+        {
+            "fileName": "9755f88794ca3c6449cc10c9cb384557"
+        }
+    ],
+    "id": 47
+},
+{
+    "title": "2017 Toyota 86",
+    "price": 20753,
+    "categoryId": 48,
+    "description": "The 2017 Toyota 86 ranks in the middle of the highly competitive sports car class, thanks to its handsome interior, sharp handling, and great safety scores. That said, it has cramped rear seats and little room for cargo",
+    "images": [
+        {
+            "fileName": "03a2f093bbd6b16e8a7985f5e1872276"
+        }
+    ],
+    "id": 48
+}
 ];
 
 const addListing = (listing) => {
